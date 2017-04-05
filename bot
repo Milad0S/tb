@@ -19,7 +19,7 @@ prtbrown() {
 }
 # update data to the last version
 update() {
-  git fetch --all && git reset --hard origin/persian && git pull origin persian && chmod +x bot
+  git fetch --all && git reset --hard origin/milad && git pull origin milad && chmod +x bot
     prtgrn "
       بروزرسانی اطلاعات با موفقیت انجام شد <<
   >> Bot's source successfully updated
